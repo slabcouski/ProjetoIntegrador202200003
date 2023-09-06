@@ -1,0 +1,48 @@
+[
+    {
+        "id":"001",
+        "UC":"Planejar e executar a montagem de computadores",
+        "CH":"84h",
+        "conteudo":"-Descreve as funcionalidades e aplicações da arquitetura de computadores, de acordo com as orientações técnicas do fabricante. <br> - Utiliza medidas de prevenção contra descargas eletrostáticas, de acordo com as orientações do fabricante. <br> - Testa componentes de computadores e periféricos, de acordo com as recomendações técnicas. <br> - Configura os componentes do computador conforme recomendações técnicas. <br> - Monta computadores conforme as recomendações e os procedimentos técnicos de fabricantes. <br> - Configura os parâmetros de inicialização da máquina conforme recomendações técnicas. <br> - Realiza inspeção final do equipamento conforme recomendações técnicas."
+    },
+    {
+        "id":"002",
+        "UC":"Planejar e executar a montagem de computadores",
+        "CH":"74h"
+    },
+    {
+        "id":"003",
+        "UC":"Planejar e executar a montagem de computadores",
+        "CH":"68h"
+    },
+    {
+        "id":"004",
+        "UC":"Planejar e executar a montagem de computadores",
+        "CH":"90h"
+    },
+    {
+        "id":"005",
+        "UC":"Planejar e executar a montagem de computadores",
+        "CH":"84h"
+    },
+    {
+        "id":"006",
+        "UC":"Planejar e executar a montagem de computadores",
+        "CH":"84h"
+    },
+    {
+        "id":"007",
+        "UC":"Planejar e executar a montagem de computadores",
+        "CH":"84h"
+    },
+    {
+        "id":"008",
+        "UC":"Planejar e executar a montagem de computadores",
+        "CH":"84h"
+    },
+    {
+        "id":"009",
+        "UC":"Planejar e executar a montagem de computadores",
+        "CH":"84h"
+    }
+]

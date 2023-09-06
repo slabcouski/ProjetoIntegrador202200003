@@ -1,0 +1,91 @@
+.verMais{
+    width: 8rem;
+    height: 3rem;
+    background-color: #005594;
+    color: #FFF;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.fc-highlight{
+    background: #ffecd5 !important;
+}
+.cart{
+    color: var(--color-secondary);
+}
+.frequencia{
+    color: var(--color-hour);
+}
+.faltas{
+    color: var(--color-hour-2);
+}
+.cardt{
+    border: 1px solid var(--border-modal-config) !important;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    color:  var(--color-secondary);
+}
+.calendario a {
+    color: var(--color-frequencia) !important;
+}
+.fc-toolbar.fc-header-toolbar{
+    margin-bottom: -10px !important;
+}
+.fc-toolbar-title{
+    background-color: var(--color-secondary);
+    border-radius: 5px;
+    padding: 0.5rem;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: var(--color-mouth);
+}
+.fc-toolbar-title::first-letter{
+    text-transform: uppercase;
+}
+.fc-dayGridMonth-view{
+    border: 1px solid var(--border-modal-config);
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 10px 2px 2px 2px;     
+}
+
+.fc-theme-standard td, .fc-theme-standard th{
+    border: none !important;
+}
+
+.fc-theme-standard .fc-scrollgrid{
+    border: none !important;
+}
+
+.fc-day-today {
+    background-color: var(--color-secondary) !important;
+    border-radius: 5px;
+}
+
+.fc-day-today a {
+    color: #FFF !important;
+}
+
+.fc-non-business {
+    background-color: #FFF !important;
+}
+
+.fc-non-business a {
+    color: var(--color-secondary) !important;
+}
+
+.fc-day-sun a {
+    color: var(--color-secondary) !important;
+}
+
+.wborder{
+    background-color: #005594;
+    height:24px;
+    width: 100px;
+}
+@media(max-width:760px){
+
+}

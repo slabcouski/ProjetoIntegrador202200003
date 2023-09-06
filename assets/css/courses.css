@@ -1,0 +1,30 @@
+.btn-edit{
+    background-color: transparent;
+    color: var(--color-secondary);
+    border-radius: 10px;
+    border: 0px;
+    height: 30px;
+    width: 120px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+
+.btn-edit:hover{
+    color: var(--bg-color);
+}
+.img-fluid{
+    width: 80% !important;
+}
+
+@media (min-width: 768px) {
+    .row {
+        justify-content: space-between !important;
+        align-items: center;
+    }
+}
+.card:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+

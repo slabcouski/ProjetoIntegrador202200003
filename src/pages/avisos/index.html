@@ -1,0 +1,62 @@
+<?php
+
+    session_start();
+    if (!isset($_SESSION["dados"]) && !$_SESSION["dados"]["usuarioCheckado"]) {
+        header("Location: ../../../");
+    }
+
+    //print_r($_SESSION["dados"]);
+
+?>
+<!DOCTYPE html>
+<html lang="pt-br" class="default">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../assets/css/variables.css">
+    <link rel="stylesheet" href="../../../assets/css/header.css">
+    <link rel="stylesheet" href="../../../assets/css/footer.css">
+    <link rel="stylesheet" href="../../../assets/css/icons.css">
+    <link rel="stylesheet" href="../../../assets/css/avisos.css">
+    <link rel="stylesheet" href="../../../assets/css/configuracoes.css">
+    <title>avisos</title>
+</head>
+<body>
+    <div class="container-fluid mb-5 p-0">
+        <main> 
+            <div class="flex-row">
+                <h1 class="text-warning text-center mt-4">Avisos</h1>
+                <div class="d-flex justify-content-center mt-3">
+                    <button class="btn">Todas</button>
+                    <button class="btn mx-5">Não Lidas</button>
+                    <button class="btn">Lidas</button>
+                </div>
+            </div>
+            <div class="p-4 flex-column">
+                <button class="btn-edit w-100 text-start p-2" type="button" data-bs-toggle="modal" data-bs-target="#aviso">Aviso importante</button>
+                <div class="modal fade" id="aviso"  aria-labelledby="aviso" aria-hidden="true">
+                    <div class="modal-dialog aviso  p-5">
+                        <div class="modal-content modal-b">
+                            <div class="modal-header cards">
+                                <h4 class="text-light">Aviso importante</h4>
+                                <button type="button" class="btn-close alig" data-bs-dismiss="modal" aria-label="close"></button>
+                            </div>
+                            <div class="modal-body cards px-5 rounded-bottom"><p class="text-light">aaaaaaaaaaaa</p></div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </main>
+    </div>
+    <?php include_once("../../parts/footer.php"); ?>
+    </div>
+    <?php include_once("../../parts/modalConfiguracoes.php"); ?>
+    <script src="../../../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../assets/js/configuracoes.js"></script>
+    <script src="../../../assets/jquery/jquery.js"></script>
+    <script src="../../../assets/jquery/jquery.mask.js"></script>
+</body>
+</html>

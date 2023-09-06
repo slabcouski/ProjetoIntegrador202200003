@@ -1,0 +1,12 @@
+.textCor{
+    color: var(--color-secondary);
+}
+.cardModal{
+    background-color: #004A8D;
+    color: #ffffff;
+}
+@media (max-width:768px) {
+    .p, .a{
+        font-size: 20rem ;
+    }
+}

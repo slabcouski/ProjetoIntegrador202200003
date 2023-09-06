@@ -1,0 +1,36 @@
+.div-edit {
+    width: 22rem;
+    height: 6rem;
+    background-color: var(--color-div-documentacao);
+}
+
+.div-edit:hover {
+    cursor: pointer;
+}
+
+.p-edit {
+    color: var(--color-p-documentacao);
+}
+
+.h2-edit {
+    color: var(--color-h2-documentacao);
+}
+
+body {  
+    background-color: var(--bg-color);
+}
+
+@media (min-width: 500px) {
+    .h2-edit {
+        font-size: 3rem;
+    }
+
+    .div-edit {
+        width: 30rem;
+        height: 9rem;
+    }
+
+    p {
+        font-size: 1.5rem !important;
+    }
+}

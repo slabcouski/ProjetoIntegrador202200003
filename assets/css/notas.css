@@ -1,0 +1,71 @@
+.box-uc {
+    width: 18rem;
+    max-height: 58.8px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.box-uc.expand {
+    transition: 0.5s;
+    max-height: 169.5px;
+}
+
+.header-box-uc h4 {
+    transition: 0.5s;
+    transform: rotate(180deg);
+}
+
+.header-box-uc h4.rotate {
+    transition: 0.5s;
+    transform: rotate(0deg);
+}
+
+.header-box-uc h4:hover {
+    cursor: pointer;
+}
+
+.box-uc {
+    background-color: #d3d0d0;
+    border-radius: 1rem;
+}
+
+.header-box-uc {
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.col {
+    margin-bottom: 1rem;
+    height: 169.5px !important;
+}
+
+.box-uc div:nth-child(2) div:nth-child(1) p:nth-child(1) span {
+    color: green;
+}
+
+.box-uc div:nth-child(2) div:nth-child(1) p:nth-child(2) span {
+    color: red;
+}
+
+@media (max-width: 1114px) {
+    .box-uc {
+        max-height: 58.47px;
+    }
+    
+}
+
+@media (max-width: 978px) {
+    .box-uc {
+        max-height: 57.8px;
+    }
+}
+
+@media (max-width: 1088px) {
+    .col {
+        height: auto !important;
+    }
+}
+/* parte do nicolas, o cara que não usa a PORRA DO PX COMO MEDIDA PRA FACILITAR O PROXIMO NÉ ADRYAN FILHA DA PUTA abafa-a-palhinha, abécula, abelhudo, abichanado, abutre, agarrado, agiota, agressivo, alarve, alcouceira, alcoviteira, aldrabão, aleivoso, amalucado, amarelo, amaneirado, amaricado, amigo-da-onça, analfabeto, analfabruto, animal, anjinho, anormal, apanhado do clima, aparvalhada, apóstata, arrelampado, arrogante, artolas, arruaceiro, aselha, asno, asqueroso, assassino, atarantada, atrasado mental, atraso de vida, avarento, avaro, ave rara, aventesma, azeiteiro, bacoco, bácoro, badalhoca, badameco, baixote, bajulador, baldas, baleia, balhelhas, balofo, banana, bandalho, bandido, barata tonta, bárbaro, bardajona, bardamerdas, bargante, barrigudo, basbaque, basculho, básico, bastardo, batoque, batoteiro, beata, bebedanas, bêbedo, bebedolas, beberrão, besta, besta quadrada, betinho, bexigoso, bichona, bicho do mato, biltre, bimbo, bisbilhoteira, boateiro, bobo, boca de xarroco, boçal, bode, bófia, boi, boneca de trapos, borracho, borra-botas, bota de elástico, brochista, bronco, brutamontes, bruto, bruxa, bufo, burgesso, burlão, burro, */
+@media (min-width: 500px) {
+    
+}

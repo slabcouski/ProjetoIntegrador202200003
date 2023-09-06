@@ -1,0 +1,37 @@
+.circle{
+    width: 90px;
+    height: 90px;
+    background-color: var(--color-footer);
+}
+.icone{
+    font-size: 55px;
+    color: var(--bg-color);
+    }
+
+    .input-group::-webkit-input-placeholder{
+        font-weight:bolder;
+        color: black;
+        font-size: larger;
+    }
+
+    .caneta-icone{
+        position: absolute;
+        margin-left:4.5rem;
+        margin-top: 6rem;
+        font-size: 30px;
+        color: var(--color-icons-main);
+    }
+
+    .btn-save{
+        background-color: #2ECC71;
+        text-align: center;
+        border-radius: 5px;
+        height: 25px;
+    }
+
+    .btn-change{
+        background-color: #F78B1F;
+        text-align: center;
+        border-radius: 5px;
+        height: 25px;
+    }

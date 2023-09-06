@@ -1,0 +1,156 @@
+[
+    {
+        "id": "0001",
+        "nome_curso": "CHURRASCO: MOLHOS E ACOMPANHAMENTOS",
+        "objetivo": "Elaborar pratos à base de churrasco, incluindo molhos e seus acompanhamentos, enriquecendo a culinária brasileira.",
+        "carga_horaria": "15h",
+        "cidade": "Matinhos",
+        "data":"07/10/2023 a 28/10/2023",
+        "hora":"09h00 às 13h00",
+        "dia_semana":"sab",
+        "imagem":"0001.jpg"
+    },
+    {
+        "id": "0002",
+        "nome_curso": "CULINÁRIA JAPONESA SUSHI E SASHIMI",
+        "objetivo": "Aprenda as técnicas de preparo de sushi e sashimi, suas particularidades e variações. Conheça essas delícias da culinária oriental.",
+        "carga_horaria": "15h",
+        "cidade": "Matinhos",
+        "data":"06/11/2023 a 09/11/2023",
+        "hora":"18h30 às 22h30",
+        "dia_semana":"seg ter qua qui",
+        "imagem":"0002.jpg"
+    },
+    {
+        "id": "0003",
+        "nome_curso": "MASSAS E RISOTOS",
+        "objetivo": "Conheça as técnicas para a preparação de risotos e massas. Faça receitas incríveis e surpreenda a todos.",
+        "carga_horaria": "15h",
+        "cidade": "Matinhos",
+        "data":"16/11/2023 a 23/11/2023",
+        "hora":"19h00 às 22h00",
+        "dia_semana":"seg ter qua qui sex",
+        "imagem":"0003.jpg"
+    },
+    {
+        "id": "0004",
+        "nome_curso": "PANETONES, BOLOS E ROSCAS NATALINAS",
+        "objetivo": "Aprenda a fazer a tradicional massa do panetone e as variações com frutas secas, gotas de chocolate e recheados. Este curso também abordará o preparo de bolos e roscas natalinas com diferentes formatos e decorações.",
+        "carga_horaria": "15h",
+        "cidade": "Matinhos",
+        "data":"27/11/2023 a 01/12/2023",
+        "hora":"19h00 às 22h00",
+        "dia_semana":"seg ter qua qui sex",
+        "imagem":"0004.jpg"
+    },
+    {
+        "id": "0005",
+        "nome_curso": "SALGADEIRO",
+        "objetivo": "Invista em uma nova profissão. Aprenda a preparar massas e recheios para a produção de salgados tradicionais e finos.",
+        "carga_horaria": "160h",
+        "cidade": "Matinhos",
+        "data":"04/09/2023 a 06/11/2023",
+        "hora":"08h00 às 12h00",
+        "dia_semana":"seg ter qua qui sex",
+        "imagem":"0005.jpg"
+    },
+    {
+        "id": "0006",
+        "nome_curso": "CONFEITEIRO",
+        "objetivo": "O Confeiteiro é responsável pela preparação, montagem e apresentação de produtos de Confeitaria. Exerce suas atividades em confeitarias, panificadoras, entre outros ambientes de produções alimentícias, como prestador autônomo ou contratado em empresas. Interage com clientes internos e externos, podendo trabalhar em equipe.",
+        "carga_horaria": "300h",
+        "cidade": "Matinhos",
+        "data":"04/09/2023 a 07/03/2024",
+        "hora":"14h00 às 17h00",
+        "dia_semana":"seg ter qua qui sex",
+        "imagem":"0006.jpg"
+    },
+    {
+        "id": "0007",
+        "nome_curso": "QUALIDADE NA RECEPÇÃO E CONDUÇÃO DE VISITANTES",
+        "objetivo": "Recepcionar e conduzir visitantes de acordo com o local.",
+        "carga_horaria": "15h",
+        "cidade": "Pontal do Paraná",
+        "data":"13/09/2023 a 21/09/2023",
+        "hora":"14h00 às 17h00",
+        "dia_semana":"qua qui sex",
+        "imagem":"0007.jpg"
+    },
+    {
+        "id": "0008",
+        "nome_curso": "TÉCNICAS PARA CAMAREIRA DE MEIOS DE HOSPEDAGEM",
+        "objetivo": "Aprenda sobre os processos de limpeza, higienização e arrumação das unidades habitacionais para a chegada e permanência dos hóspedes, em conformidade com as normas e os procedimentos dos meios de hospedagem.",
+        "carga_horaria": "40h",
+        "cidade": "Pontal do Paraná",
+        "data":"16/10/2023 a 27/10/2023",
+        "hora":"14h00 às 17h00",
+        "dia_semana":"seg ter qua qui sex",
+        "imagem":"0008.jpg"
+    },
+    {
+        "id": "0009",
+        "nome_curso": "PRIMEIROS SOCORROS",
+        "objetivo": "Desenvolver habilidades necessárias à prestação de primeiros socorros a vítimas de acidentes ou mal súbito até a chegada do atendimento especializado.",
+        "carga_horaria": "16h",
+        "cidade": "Matinhos",
+        "data":"20/11/2023 a 24/11/2023",
+        "hora":"19h00 às 22h00",
+        "dia_semana":"seg ter qua qui sex",
+        "imagem":"0009.jpg"
+    },
+    {
+        "id": "0010",
+        "nome_curso": "CABELEIREIRO ASSISTENTE",
+        "objetivo": "Auxiliar na realização de procedimentos de embelezamento e cuidados nos cabelos. Este profissional organiza o ambiente de trabalho, realiza procedimentos de higienização, hidratação e penteados.",
+        "carga_horaria": "230h",
+        "cidade": "Matinhos",
+        "data":"04/09/2023 a 01/12/2023",
+        "hora":"13h30 às 17h30",
+        "dia_semana":"seg ter qua qui sex",
+        "imagem":"0010.jpg"
+    },
+    {
+        "id": "0011",
+        "nome_curso": "AUXILIAR DE COZINHA",
+        "objetivo": "Aprenda as principais técnicas de cozinha: recebimento, armazenamento, métodos de cocção e outras. Prepare-se para atuar no segmento de alimentos e bebidas e inicie uma nova profissão.",
+        "carga_horaria": "240h",
+        "cidade": "Matinhos",
+        "data":"11/09/2023 a 08/12/2023",
+        "hora":"13h30 às 17h30",
+        "dia_semana":"seg ter qua qui sex",
+        "imagem":"0011.jpg"
+    },
+    {
+        "id": "0012",
+        "nome_curso": "MODELAGEM E HENNA PARA SOBRANCELHAS",
+        "objetivo": "A aplicação de henna nas sobrancelhas causa maior expressividade ao rosto, realça os traços e o olhar, e melhora a autoestima. Aprenda as técnicas e os produtos adequados para a correta realização deste procedimento.",
+        "carga_horaria": "21h",
+        "cidade": "Matinhos",
+        "data":"11/09/2023 a 19/09/2023",
+        "hora":"14h00 às 17h00",
+        "dia_semana":"seg ter qua qui sex",
+        "imagem":"0012.jpg"
+    },
+    {
+        "id": "0013",
+        "nome_curso": "CUIDADOR DE IDOSO",
+        "objetivo": "Formar profissionais com competências para atuar e intervir em seu campo de trabalho, com foco em resultados.",
+        "carga_horaria": "160h",
+        "cidade": "Matinhos",
+        "data":"18/09/2023 a 20/11/2023",
+        "hora":"13h30 às 17h30",
+        "dia_semana":"seg ter qua qui sex",
+        "imagem":"0013.jpg"
+    },
+    {
+        "id": "0014",
+        "nome_curso": "APERFEIÇOAMENTO PARA MANICURE E PEDICURE",
+        "objetivo": "As tendências da moda também passam pelas unhas. Atualize suas técnicas e se destaque no mercado de trabalho.",
+        "carga_horaria": "50h",
+        "cidade": "Matinhos",
+        "data":"09/10/2023 a 06/11/2023",
+        "hora":"09h00 às 12h00",
+        "dia_semana":"seg ter qua qui sex",
+        "imagem":"0014.jpg"
+    }
+]

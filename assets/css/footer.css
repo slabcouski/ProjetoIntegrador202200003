@@ -1,0 +1,23 @@
+.rodape {
+    z-index: 999;
+    background-color: var(--color-footer);
+    height: 3rem;
+    position: fixed;
+    bottom:0;
+    border-top: 2px solid var(--color-border-top-footer);
+}
+
+.icons-footer {
+    font-size: 30px;
+    color: var(--color-icons-footer)
+}
+
+.icons-footer:hover {
+    color: var(--color-icons-footer)
+}
+
+@media (min-width: 900px) {
+    .rodape {
+        display: none !important;
+    }
+}

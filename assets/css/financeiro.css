@@ -1,0 +1,45 @@
+.p-botao button{
+    border: none;
+    background-color: transparent;
+    margin: 0 4px 0 4px;
+    color: var(--color-text);
+}
+
+.card {
+    background-color: yellow !important;
+    width: 30% !important;
+    font-size: 30px;
+}
+
+.btn-edit {
+    width: 15rem;
+    height: 2rem;
+    background-color: var(--color-button-financeiro);
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.a-edit {
+    color: var(--color-text);
+}
+
+
+
+.div_meio {
+    width: 15% !important;
+    background-color: yellow !important;
+    border-radius: 50% ;
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .div_meio{
+        width: 70% !important;
+        background-color:transparent;
+        border-radius: 100%;
+        font-size: 60px;
+        justify-content: center;
+        display: flex;
+    }
+}

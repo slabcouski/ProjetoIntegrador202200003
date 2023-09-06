@@ -1,0 +1,67 @@
+.p-color {
+    color: var(--color-p);
+}
+
+.estado {
+    font-size: .8rem;
+}
+
+.icon-edit-sino {
+    color: var(--color-bell);
+    margin-left: 1.8rem;
+}
+.icon-edit-sino:hover {
+    color: var(--color-bell);
+    margin-left: 1.8rem;
+}
+
+.icon-edit-person {
+    font-size: 30px;
+    color: var(--color-person);
+}
+
+.cabecalho {
+    background-color: var(--color-header);
+}
+
+.usuario {
+    height: 50px;
+    width: 45px;
+    border: 0;
+    background-color: var(--bg-person);
+}
+
+.usuario:hover {
+    background-color: var(--bg-person) !important;
+}
+
+.usuario:focus {
+    background-color: var(--bg-person) !important;
+}
+
+.p-dropdown {
+    color: var(--color-p-dropdown) !important;
+}
+
+.p-dropdown-2 {
+    color: var(--color-p2-dropdown) !important;
+}
+.dropdown-menu{
+    margin-top: 1rem !important;
+}
+.dropdown-edit {
+    background-color: var(--bg-dropdown) !important;
+    border-color: var(--dropdown-divider) !important;
+}
+
+.divider-edit {
+    background-color: var(--dropdown-divider) !important;
+}
+
+.dropdown-edit li a:hover {
+    background-color: transparent !important;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}

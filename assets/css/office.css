@@ -1,0 +1,13 @@
+.circle{
+    width: 70px;
+    height: 70px;
+    background-color: var(--color-footer);
+}
+.icone{
+font-size: 40px;
+color: var(--bg-color);
+}
+
+.nomeAluno{
+    color:  var(--color-footer);
+}

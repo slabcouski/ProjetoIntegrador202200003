@@ -1,0 +1,98 @@
+body {
+    background-color: var(--bg-color);
+    /*
+
+    temporariamente desabilitado para fins de testes, descomentar esse trecho de codigo depois que todo o resto estiver feito
+    
+    overflow: hidden;
+    */
+}
+
+.botao {
+    height: 80px;
+    width: 85px;
+    background-color: var(--color-circle);
+    color: var(--color-circle);
+    border: 2px solid var(--color-circle);
+    transition: 0.5s;
+}
+.botao:hover{
+    border: 2px solid var(--color-secondary);
+    background-color: var(--color-primary);
+    color: var(--color-primary);
+    transition: 0.5s;
+}
+.botao:hover .icon {
+    color: var(--color-icon);
+    transition: 0.5s;
+}
+.icon {
+    font-size: 40px;
+    color: var(--color-icons-main);
+    transition: 0.5s;
+}
+
+.p-text {
+    color: var(--color-text);
+}
+
+.row {
+    justify-content: unset !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.tablet {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.div-tab {
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*Tablet*/
+@media (min-width:500px) {
+    .quadrado {
+        width: 80% !important;
+        height: 50%;
+        border: 2px solid black;
+        background-image: url(../../assets/imgs/nego-ney.jpg);
+        background-repeat: repeat-x;
+    }
+
+
+}
+
+
+/* Celular - 100% */
+
+@media (max-width:360px){
+    .botao {
+        height: 70px !important;
+        width: 70px !important;
+    }
+    .icon {
+        font-size: 38px !important;
+    }
+    .col {
+        width: 46% !important;
+    }
+    .row {
+        justify-content: center !important;
+    }
+    .tablet{
+        display: none !important;
+    }
+    .quadrado{
+        background-image: none;
+    }
+    main
+    {
+        margin-bottom: 5rem;
+    }
+}
+
+/* sempre que forem mexer em uma classe do bootstrap coloque o "!important" (sem aspas) logo antes do ; */

@@ -1,0 +1,105 @@
+.circle{
+    width: 90px;
+    height: 90px;
+    background-color: var(--color-footer);
+}
+.icone{
+    font-size: 55px;
+    color: var(--bg-color);
+}
+
+.input-group::-webkit-input-placeholder{
+    font-weight:bolder;
+    color: black;
+    font-size: larger;
+}
+
+.caneta-icone{
+    position: absolute;
+    margin-left:4.5rem;
+    margin-top: 6rem;
+    font-size: 30px;
+    color: var(--color-icons-main);
+}
+
+input[type="text"], input[type="email"], input[type="date"] {
+    height: 2rem;
+    width: 18rem;
+}
+
+.div-form {
+    justify-content: space-between;
+    width: 50rem;
+}
+
+.input-nome-social {
+    margin-top: 0.5rem;
+    display: none;
+}
+
+.div-teste {
+    position: absolute;
+    margin-top: -1.4rem;
+}
+
+.div-edit-2 {
+    width: 18rem;
+}
+
+.div-endereco {
+    display: none;
+}
+
+.line {
+    width: 100%;
+    height: 0.1rem;
+    background-color: rgb(119, 117, 119);
+}
+
+.buttons:nth-child(1) {
+    background-color: #F78B1F;
+}
+
+.buttons:nth-child(2) {
+    background-color: #2ECC71;
+}
+
+.buttons {
+    color: white;
+    width: 15rem;
+    border: none;
+}
+
+.a-edit:hover {
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .div-form {
+        width: 20rem;
+        justify-content: center;
+    }
+    .div-edit {
+        margin-top: 1.4rem;
+    }
+    .div-edit-2 {
+        width: 30rem;
+    }
+    .div-edit-3 {
+        width: 30rem;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 532px) {
+    .div-edit-2 {
+        width: 18rem;
+    }
+    .div-edit-3 {
+        width: 18rem;
+    }
+    .input-start {
+        align-self: self-start;
+    }
+}

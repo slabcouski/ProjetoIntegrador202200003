@@ -1,0 +1,14 @@
+.circle{
+    width:  9rem;
+    height: 9rem;
+    background-color: var(--color-footer);
+}
+.icone{
+font-size: 6.1rem;
+color: var(--bg-color);
+}
+
+.nomeAluno{
+    color:  var(--color-footer);
+}
+

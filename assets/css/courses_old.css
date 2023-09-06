@@ -1,0 +1,36 @@
+.btn-edit{
+    background-color: #004A8D;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    height: 30px;
+    width: 120px;
+}
+
+
+.i{
+    color: #004A8D;
+}
+button{
+    background-color: #004A8D;
+    color: white;
+}
+
+@media (min-width: 550px) {
+    .tab_img {
+        width: 100% !important;
+    }
+}
+@media (max-width:768px) {
+    .col {
+        width: 100% !important;
+    }
+.texto{
+    text-align: end !important;
+}}
+/*
+@media (max-width: 1300px) {
+    .tab_img {
+
+    }
+}

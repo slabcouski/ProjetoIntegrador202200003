@@ -1,0 +1,26 @@
+.btn-edit{
+    border-left-color:blue ;
+    border-top: 0;
+    border-right: 0;
+}
+.cards{
+    background-color: #004A8D;
+    border: 0px;
+    width: 100%;
+}
+
+.modal-b{
+    border: 0px;
+    right: 13%;
+}
+
+
+.title
+{
+    color: white!important;
+}
+
+.aviso{
+    width: 120%;
+}
+
