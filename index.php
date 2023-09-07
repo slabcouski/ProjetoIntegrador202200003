@@ -45,7 +45,7 @@
                 <?php } ?>
             </div>
             <div class="w-50 d-flex flex-column mt-4">
-                <button class="w-100 btn shadow btn-edit">Entrar</button>
+                <button class="w-100 btn shadow btn-edit">Testsse</button>
                 <a href="./src/pages/cadastro/" class="align-self-center mt-2 a-edit text-decoration-none">Fazer cadastro</a>
             </div>
         </form>
